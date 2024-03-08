@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Satisfy';
+    src: url('/font/Satisfy-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/font/Montserrat/static/Montserrat-Light.ttf');
+  }
+
+  @font-face {
+    font-family: 'Dosis';
+    src: url('/font/Dosis/static/Dosis-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Quicksand';
+    src: url('/font/Quicksand/static/Quicksand-Light.ttf');
+  }
+
+  /* cookie */
+
+  @font-face {
+    font-family: 'Cookie';
+    src: url('/font/Cookie/Cookie-Regular.ttf');
+  }

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="script/main.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Jura:wght@300&family=Playfair:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="about-image">
+        <img id="screen" src="/img/photos/dell2.png" alt="">
+
+        <div id="embedded-content">
+            <section>
+                <div id="background-img-resto">
+                    <div id="head-resto">
+                        <div id="logo-resto">
+                            <p>Pasta</p>
+                            <p>Palazzo</p>
+                        </div>
+    
+                        <div id="nav-resto">
+                            <div>
+                                <p>Menu</p>
+                            </div>
+                            <div>
+                                <p>Reservation</p>
+                            </div>
+                            <div>
+                                <p>Join our team</p>
+                            </div>
+                            <div>
+                                <p>Contact</p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+                    <div id="welcome-menu">
+                        <div id="welcome-resto">
+                            <p>Welcome</p>
+                        </div>
+    
+                        <div id="slogan-resto">
+                            <p>Indulge in exquisite flavors, artfully crafted pasta.</p>
+                        </div>
+    
+                        <div id="menu-drink">
+                            <div id="menu">
+                                <p>Menu</p>
+                            </div>
+                            <div id="drinks">
+                                <p>Drinks</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="modal-trigger">Book a Table</button>
+    
+                    <div id="modal">
+                        <div class="modal-content">
+                        <p>Book a Table</p>
+                        <form id="booking-form">
+                    
+                            <div class="flex-col">
+                                <div class="flex-row">
+                                    <label for="name">Name</label>
+                                    <label for="phone">Phone</label>
+                                </div>
+                                
+                                <div class="flex-row">
+                                    <input type="text" id="name" name="name" required>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </div>
+                    
+                            <div class="flex-col">
+                                <div class="flex-row">
+                                    <label for="date">Date</label>
+                                    <label for="time">Time</label>
+                                </div>
+                                
+                                <div class="flex-row">
+                                    <input type="date" id="date" name="date" required>
+                                    <input type="time" id="time" name="time" required>
+                                </div>
+                            </div>
+                    
+                            <div class="flex-row">
+                                <div class="flex-col">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" required></textarea>
+                                </div>
+                                
+                                <div id="btn-res">   
+                                    <button type="submit">Book</button>
+                                </div>
+                            </div>
+                    
+                        </form>
+                        </div>
+                    </div>
+                </div>
+    
+                <div id="info-resto">
+    
+                    <div>
+                        <img src="img/icon/resto/phone.png" alt="phone">
+                        <div>
+                            <p>(514)-344-6171</p>
+                            <p class="grey">Make a reservation</p>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="img/icon/resto/location.png" alt="location">
+                        <div>
+                            <p>200 New-Street Avenue</p>
+                            <p class="grey">San Francisco, California, USA</p>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="img/icon/resto/time.png" alt="time">
+                        <div>
+                            <p>Open Wednesday - Sunday</p>
+                            <p class="grey">11:00am - 3:00am</p>
+                        </div>
+                    </div>
+                    
+                </div>
+    
+                <div id="discover-resto">
+                    <p>Discover</p>
+                    <p>Our best sellers</p>
+                </div>
+    
+                <div id="discover-section">
+                    <div id="discover-type">
+                        <div class="di-dr-de type-active">
+                            <p>Main Dishes</p>
+                        </div>
+                        <div class="di-dr-de">
+                            <p>Drinks</p>
+                        </div>
+                        <div class="di-dr-de">
+                            <p>Desserts</p>
+                        </div>
+                    </div>
+    
+                    <div id="discover-main-dishes">
+                        <div>
+                            <img src="img/photos/resto/lasagne.jpg" alt="lasagne">
+                            <p>Lasagna</p>
+                            <p>Layers of tender pasta, savory ground beef, rich tomato sauce, and melted cheeses.</p>
+                            <p>$13.70</p>
+                        </div>
+                        <div>
+                            <img src="img/photos/resto/pasta.jpg" alt="pasta">
+                            <p>Alfredo Chicken Pasta</p>
+                            <p>Grilled chicken, creamy Alfredo sauce, al dente pasta, and a sprinkle of Parmesan cheese.</p>
+                            <p>$16.50</p>
+                        </div>
+                        <div>
+                            <img src="img/photos/resto/pizza.jpg" alt="pizza">
+                            <p>Napolitan Pizza</p>
+                            <p>Thin, crispy crust topped with vibrant tomato sauce, gooey mozzarella cheese and fresh spinach.</p>
+                            <p>$14.90</p>
+                        </div>
+                    </div>
+    
+                     <div id="discover-drinks">
+                        <div>
+                            <img src="img/photos/resto/aperol.jpg" alt="aperol">
+                            <p>Aperol</p>
+                            <p>Bittersweet and bubbly cocktail with Aperol, prosecco, and soda water. Refreshing and citrusy.</p>
+                            <p>$11.50</p>
+                        </div>
+                        <div>
+                            <img src="img/photos/resto/martini.jpg" alt="martini">
+                            <p>Martini</p>
+                            <p>Classic cocktail with gin and dry vermouth. Elegant and timeless, garnished with an olive.</p>
+                            <p>$13.50</p>
+                        </div>
+                        <div>
+                            <img src="img/photos/resto/negroni.jpg" alt="negroni">
+                            <p>Negroni</p>
+                            <p>Equal parts gin, Campari, and sweet vermouth. A bold and bitter classic cocktail.</p>
+                            <p>$13.00</p>
+                        </div>
+                    </div>
+    
+                    
+                    <div id="discover-desserts">
+                        <div>
+                            <img src="img/photos/resto/tiramisu.jpg" alt="tiramisu">
+                            <p>Tiramisu</p>
+                            <p>A classic dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.</p>
+                            <p>$8.50</p>
+                        </div>
+                        <div>
+                            <img src="img/photos/resto/pannacotta.jpg" alt="panna-cotta">
+                            <p>Panna Cotta</p>
+                            <p>A silky and smooth dessert made with sweetened cream, gelatin, and flavored with berries.</p>
+                            <p>$7.00</p>
+                        </div>
+                        <div>
+                            <img src="img/photos/resto/cannoli.jpg" alt="cannoli">
+                            <p>Cannoli</p>
+                            <p>4 Crispy pastry tubes filled with a sweet and creamy ricotta cheese and chocolate filling.</p>
+                            <p>$10.50</p>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+        </div>
+
+    </div>
+</body>
+
+<script>
+
+// Function for smooth scrolling with adjustable speed
+function smoothScroll(element, to, duration) {
+    const start = element.scrollTop;
+    const change = to - start;
+    const increment = 0.4; // The smaller the increment, the smoother the animation
+    let currentTime = 0;
+
+    function animateScroll() {
+        currentTime += increment;
+        const val = Math.easeInOutQuad(currentTime, start, change, duration);
+        element.scrollTop = val;
+        if (currentTime < duration) {
+            setTimeout(animateScroll, increment);
+        }
+    }
+
+    animateScroll();
+}
+
+// Easing function for smoother animation
+Math.easeInOutQuad = function (t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return c / 2 * t * t + b;
+    t--;
+    return -c / 2 * (t * (t - 2) - 1) + b;
+};
+
+window.onload = function () {
+    function scrollToBottom() {
+        console.log('scrollToBottom function called');
+        const embeddedContent = document.getElementById('embedded-content');
+        if (embeddedContent) {
+            const scrollHeight = embeddedContent.scrollHeight;
+            smoothScroll(embeddedContent, scrollHeight, 1000); // Adjust the duration as needed (1000 milliseconds in this example)
+        }
+    }
+
+    // Call the scrollToBottom function after a certain delay
+    // Adjust the delay time as needed
+    setTimeout(scrollToBottom, 500); // Scrolls to the bottom after 1 second (1000 milliseconds)
+
+    let DiDrDe = document.querySelectorAll('.di-dr-de');
+    let DiscoverMainDishes = document.getElementById('discover-main-dishes');
+    let DiscoverDrinks = document.getElementById('discover-drinks');
+    let DiscoverDesserts = document.getElementById('discover-desserts');
+
+    DiscoverDrinks.style.display = 'none';
+    DiscoverDesserts.style.display = 'none';
+
+
+
+    // Function to switch between the different discover sections every 2 seconds automatically
+
+    // i want the set interval to be called after the end of the function scrollToBottom
+    // so that the user can see the discover section before it starts switching
+
+    setTimeout(function() {
+        setInterval(switchDiscoverSection, 2500);
+    }, 4000);
+
+
+
+    function switchDiscoverSection() {
+        let active = document.querySelector('.type-active');
+        let next = active.nextElementSibling;
+        if (next === null) {
+            next = DiDrDe[0];
+        }
+
+        active.classList.remove('type-active');
+        next.classList.add('type-active');
+
+        if(next.querySelector('p').textContent === 'Main Dishes') {
+            DiscoverMainDishes.style.display = 'flex';
+            DiscoverDrinks.style.display = 'none';
+            DiscoverDesserts.style.display = 'none';
+        } else if(next.querySelector('p').textContent === 'Drinks') {
+            DiscoverMainDishes.style.display = 'none';
+            DiscoverDrinks.style.display = 'flex';
+            DiscoverDesserts.style.display = 'none';
+        } else if(next.querySelector('p').textContent === 'Desserts') {
+            DiscoverMainDishes.style.display = 'none';
+            DiscoverDrinks.style.display = 'none';
+            DiscoverDesserts.style.display = 'flex';
+        }
+
+    }
+
+};
+
+
+
+</script>
+
+
+</html>

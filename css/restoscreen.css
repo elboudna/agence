@@ -1,0 +1,362 @@
+#background-img-resto {
+    background-image: url("/img/photos/resto/bar2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 100%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+#head-resto {
+    height: 15%;
+    /* light for text */
+    /* text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
+    display: flex;
+    align-items: center;
+    border-bottom: solid #cd8737 1px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#logo-resto {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: #ff3c79; */
+    color: #cd8737;
+}
+
+#logo-resto p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    margin: 0 0 0 7px;
+}
+
+#nav-resto {
+    width: 75%;
+    display: flex;
+    gap: 33px;
+    margin-left: 150px;
+    color: #cd8737;
+    font-size: .6em;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#nav-resto p {
+    cursor: pointer;
+}
+
+#welcome-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
+#welcome-resto {
+    font-family: 'Satisfy', sans-serif;
+    font-size: .8em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #cd8737;
+
+}
+
+#slogan-resto {
+    font-size: .9em;
+    color: #ff3c79;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+#menu-drink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+#menu p {
+    background-color: #cd8737;
+    border: #cd8737 solid .1px;
+    color: black;
+    padding: 4px 6px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#drinks p {
+    background-color: #bd2246;
+    color: white;
+    padding: 4px 6px;
+    border: #bd2246 solid .1px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#menu,
+#drinks {
+    cursor: pointer;
+    font-size: .3em;
+}
+
+#modal-trigger {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    /* background-color: #e9922f; */
+    background-color: #b87931;
+    border: #bd7c32 solid .1px;
+    /* border: none; */
+    color: black;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-size: 0.3em;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    background-color: #b87931;
+    border: #bd7c32 solid .1px;
+    border-radius: 10px;
+    color: white;
+    z-index: 9999;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.modal-content {
+    padding: 5px;
+}
+
+#booking-form input,
+#booking-form input[type="date"],
+#booking-form input[type="time"] {
+    width: 50%;
+    background: transparent;
+    border: 0;
+    border-bottom: .1px solid rgb(223, 223, 223);
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+#booking-form input:focus,
+#booking-form input[type="date"]:focus,
+#booking-form input[type="time"]:focus {
+    outline: none;
+}
+
+#booking-form textarea {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: .1px solid rgb(223, 223, 223);
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+#booking-form textarea:focus {
+    outline: none;
+}
+
+#booking-form>div {
+    margin-bottom: 3px;
+}
+
+#modal.show {
+    display: block;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-col input {
+    width: 48%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.flex-row label {
+    width: 50%;
+}
+
+.flex-row div {
+    width: 50%;
+}
+
+#btn-res button {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+#info-resto {
+    background-color: black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#info-resto>div {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+#info-resto img {
+    width: 7px;
+    height: 7px;
+}
+
+#info-resto p {
+    /* margin: 0; */
+    font-size: .6em;
+}
+
+.grey {
+    color: rgb(165, 165, 165);
+    font-style: italic;
+}
+
+#discover-resto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #cd8737;
+    /* background-color: #e19f54; */
+}
+
+#discover-resto p {
+    margin: 0;
+}
+
+#discover-resto p:first-of-type {
+    font-family: 'Satisfy', sans-serif;
+    font-size: .8em;
+}
+
+#discover-resto p:last-of-type {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+#discover-section {
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+#disover-section p {
+    margin: 0;
+}
+
+#discover-type p{
+    font-size: .6em;
+}
+
+#discover-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    height: 70px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#discover-type>div {
+    border-bottom: #cd8737 solid .1px;
+    color: #cd8737;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#discover-type>div:hover {
+    background-color: #cd8737;
+    color: black;
+}
+
+.type-active {
+    background-color: #cd8737;
+}
+
+.type-active p {
+    color: black;
+}
+
+#discover-main-dishes, #discover-desserts, #discover-drinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#discover-main-dishes img, #discover-desserts img, #discover-drinks img{
+    width: 116px;
+    height: 96px;
+}
+
+#discover-main-dishes > div, #discover-desserts > div, #discover-drinks > div {
+    width: 116px;
+}
+
+#discover-main-dishes > div > p:first-of-type , #discover-desserts > div > p:first-of-type, #discover-drinks > div > p:first-of-type{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: .3em;
+}
+
+#discover-main-dishes > div > p:nth-of-type(2), #discover-desserts > div > p:nth-of-type(2), #discover-drinks > div > p:nth-of-type(2) {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: rgb(137, 137, 137);
+    font-size: 6px;
+    font-size: .3em;
+}
+
+
+#discover-main-dishes > div > p:last-of-type , #discover-desserts > div > p:last-of-type, #discover-drinks > div > p:last-of-type{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: .3em;
+}
+

@@ -1,0 +1,303 @@
+#menu-ecom {
+    display: flex;
+    border-bottom: solid .1px rgb(243, 243, 245);
+}
+
+#menu-ecom>div {
+    display: flex;
+    width: 33.3%;
+    align-items: center;
+}
+
+#logo-ecom p {
+    font-family: 'Satisfy', sans-serif;
+    font-size: .8em;
+    font-weight: 900;
+    margin: 0 0 0 20px;
+}
+
+#nav-ecom {
+    justify-content: center;
+}
+
+#nav-ecom p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: .5em;
+    cursor: pointer;
+}
+
+#log-rec-pan-ecom {
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: 15px;
+}
+
+#log-rec-pan-ecom p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .6em;
+    color: black;
+    cursor: pointer;
+}
+
+#log-rec-pan-ecom img {
+    width: 5px;
+    cursor: pointer;
+}
+
+.item-count {
+    position: absolute;
+    top: 4px;
+    right: -5px;
+    background-color: rgb(184, 1, 1);
+    color: white;
+    font-size: 1px;
+    font-weight: bold;
+    padding: 1px 2px;
+    border-radius: 50%;
+}
+
+.active-red {
+    border-bottom: rgb(196, 1, 1) 2px solid;
+}
+
+#baniere-categorie {
+    border-top: 5px solid #f7f7f9;
+    background-color: #f7f7f9;
+}
+
+.flex-cate-ban {
+    display: flex;
+    gap: 5px;
+}
+
+.flex-cate-ban>div {
+    width: 50%;
+    height: 180px;
+}
+
+.flex-cate-ban-2 {
+    display: flex;
+    gap: 5px;
+}
+
+.flex-cate-ban-2>div {
+    width: 50%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.flex-cate-ban-2>div>div {
+    height: 50%;
+}
+
+.flex-cat-txt-img {
+    display: flex;
+}
+
+#cate-fashion {
+    background: radial-gradient(#f8ecff, #a29df0, #6a357e);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+#cate-cosmetic {
+    background: radial-gradient(#c61b15,#f1ad01, #ffdb4a);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+#cate-beachwear {
+    background: radial-gradient(#e89b6f,#3cc0c3, #32acaf);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+#cate-activewear {
+    background: radial-gradient(#725670, #e28f84, #8f7588);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+#cate-accessories {
+    background: radial-gradient(#c38e5f,#9cbcce, #cb9c77);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+.cate-txt {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cate-txt h1 {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 1em;
+}
+
+.cate-txt p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: .3em;
+    width: 37px;
+    cursor: pointer;
+    border-bottom: rgb(220, 2, 2) solid 2px;
+}
+
+.cate-img {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#cate-img-1{
+    width: 100%;
+}
+
+#cate-img-2{
+    width: 100%;
+}
+
+#cate-img-3{
+    width: 102%;
+}
+
+#cate-img-4{
+    width: 110%;
+}
+
+#cate-img-5{
+    width: 110%;
+}
+
+
+
+
+#product {
+    margin: 15px 70px 15px;
+}
+
+#sort-new-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sort-new-product p {
+    margin: 0;
+}
+
+#sort-new-product>div {
+    display: flex;
+    gap: 10px;
+}
+
+#sort-new-product>div p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: .4em;
+    cursor: pointer;
+}
+
+
+#sort-new-product img {
+    width: 5px;
+    height: 5px;
+}
+
+#sort-new-product>div:nth-child(1) p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#sort-new-product>div:nth-child(2) p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .4em;
+}
+
+#sort-txt-img {
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.sort-container {
+    position: relative;
+    display: inline-block;
+}
+
+.sort-container .arrow {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown-content p:hover {
+    background-color: #d7d7d7;
+}
+
+.sort-container:hover .dropdown-content {
+    display: block;
+}
+
+#the-products {
+    margin-top: 15px;
+}
+
+.flex-produits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.flex-produits>div {
+    width: 23%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.flex-produits p:first-of-type {
+    font-size: .6em;
+    font-weight: 900;
+    /* margin: 0; */
+}
+
+.flex-produits p:nth-of-type(2) {
+    font-size: .4em;
+    margin: 0;
+}
+
+.flex-produits img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}

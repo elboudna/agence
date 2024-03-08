@@ -1,0 +1,121 @@
+#info {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#head-info {
+    height: 30px;
+    background-color: #f7f7f7;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Dosis';
+    letter-spacing: 3px;
+}
+
+#head-info p {
+    cursor: pointer;
+}
+
+#head-info p:hover {
+    color: #ccd6bb;
+}
+
+#logo-info{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'QuickSand';
+    font-size: 140px;
+}
+
+#logo-info p{
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#logo-info p:first-child{
+    text-transform: uppercase;
+}
+
+#logo-info p:nth-of-type(2){
+    color: #ccd6bb ;
+    font-weight: 900;
+}
+
+#logo-info p:nth-of-type(3){
+    font-weight: 700;
+}
+
+#slogan-info{
+    font-family: 'Cookie';
+    font-size: 30px;
+}
+
+#slogan-info p{
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: end;
+}
+
+#slogan-info span{
+    border-bottom: solid 3px #ccd6bb;
+}
+
+#nav-info{
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Dosis';
+    letter-spacing: 3px;
+    
+}
+
+#nav-info p{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#nav-info p:hover{
+    color: #ccd6bb;
+}
+
+#nav-info img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+
+#nav-info img:hover{
+    transform: scale(1.2);
+}
+
+.search-input {
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    font-family: 'Dosis', sans-serif;
+}
+
+.search-input::placeholder {
+    color: #000000;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(6, 6, 6, 0.5);
+}
+
+.search-input:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
